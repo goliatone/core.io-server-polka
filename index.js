@@ -1,10 +1,18 @@
-/*jshint esversion:6, node:true*/
 'use strict';
 
-/*
- * Default initializer for the module.
- *
- * You can always override this and make
- * a custom initializer.
+module.exports.initializeSubapp = require('./lib/initializeSubapp');
+
+
+module.exports.Server = require('./lib/server');
+
+/**
+ * Exposes the `createServer` function. It mirrors
+ * the mechanics of `http` `createServer`.
+ * 
  */
-module.exports.init = require('./lib/init');
+module.exports.createServer = require('./lib/createServer');
+
+module.exports.makeHtmlErrorHandler = require('./lib/htmlErrorHandler');
+
+
+module.exports.httpHelpers = require('./lib/http-helpers');
