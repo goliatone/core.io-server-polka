@@ -35,6 +35,7 @@
     "@polka/redirect": "^1.0.0-next.12",
     "@polka/send": "^1.0.0-next.12",
     "@polka/url": "^1.0.0-next.12",
+    "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "gextend": "*",
     "gkeypath": "*",
