@@ -35,13 +35,9 @@
     "@polka/redirect": "^1.0.0-next.12",
     "@polka/send": "^1.0.0-next.12",
     "@polka/url": "^1.0.0-next.12",
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
     "gextend": "*",
     "gkeypath": "*",
-    "helmet": "^4.2.0",
     "mime": "^2.4.6",
-    "polka": "^1.0.0-next.14",
-    "serve-static": "^1.14.1"
+    "polka": "^1.0.0-next.14"
   }
 }
