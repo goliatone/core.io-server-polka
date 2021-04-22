@@ -11,6 +11,8 @@ $ npm i -S core.io-server-polka
 
 ## TODO
 
+Move default middleware to server
+    - [ ] 
 Serve default html index page
 Create default error pages
 
