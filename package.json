@@ -1,6 +1,6 @@
 {
   "name": "core.io-server-polka",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Polka server module for core.io",
   "main": "index.js",
   "scripts": {
